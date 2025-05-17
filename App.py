@@ -31,30 +31,30 @@ from math import *
 # print (sentence.replace (first_word, second_word))
 
 # Lists 
-countries = ["UK", "Ghana", "Iran", "India"]
-stuff = ["UK", "Egypt"]
-numbers = [100,9,43,24,95,64,43,2]
+# countries = ["UK", "Ghana", "Iran", "India"]
+# stuff = ["UK", "Egypt"]
+# numbers = [100,9,43,24,95,64,43,2]
 
-stuff.append("France")
-stuff.insert(1,"England")
-stuff.remove("UK")
-# stuff.clear()
-print (stuff.count("Egypt"))
-numbers.sort()
-print(numbers)
-numbers.reverse()
-print(numbers)
-numbers.pop()
-print(numbers)
+# stuff.append("France")
+# stuff.insert(1,"England")
+# stuff.remove("UK")
+# # stuff.clear()
+# print (stuff.count("Egypt"))
+# numbers.sort()
+# print(numbers)
+# numbers.reverse()
+# print(numbers)
+# numbers.pop()
+# print(numbers)
 
 
-countries.extend(stuff)
+# countries.extend(stuff)
  
-print(countries)
+# print(countries)
 
 
 
-# Tuples 
+# # Tuples 
 
 
 # three_numbers = (1,2,3)
@@ -69,9 +69,76 @@ print(countries)
 
 
 
-def men_function(name, age):
-    print(f"HI {name} you are {age}")
+# def men_function(name, age):
+#     print(f"HI {name} you are {age}")
 
-name = input("Enter your name: ")
-age = input("Enter your age: ")
-men_function(name, age)
+# name = input("Enter your name: ")
+# age = input("Enter your age: ")
+# men_function(name, age)
+
+
+# number = int(input("Enter a Number: "))
+
+# if number % 2 == 0:
+#     print("Even Number")
+# else:
+#     print("Odd number")
+
+# Dictionaries
+# print("Hi")
+# my_dict = {
+#     "name": "Gholi",
+#     "age" : 26, 
+#     "nationality" : "Iranian",
+#     "friends" : ["Peter", "Gholi" ]
+# }
+
+# x = my_dict["name"]
+# print(x)
+# print(my_dict)
+
+# while loop 
+# i = 1
+# m = 6
+# while i <= 6 and m == 6:
+#     print(i)
+#     i +=1
+    
+
+
+# for loops 
+# my_list = ["Ali", "Gholi", "Changiz"]
+# dict = ["Ali", "Gholi", "Changiz"]
+
+
+# for values in dict:
+#     print(values)
+    
+    
+# for x in range(4):
+#     print(x)
+# else:
+#     print("Looping is finished")
+
+# 2d list in python 
+
+# my_list = [
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9]
+# ]
+
+# for lists in my_list:
+#     for row in lists:
+#        print(row)
+
+
+
+
+num_1 = int(input("Enter the first number: "))
+num_2 =int( input("Enter the second number: "))
+operator = input("Enter operator")  
+
+if operator == "+":
+    print(num_1 + num_2)
+    
