@@ -142,3 +142,12 @@ operator = input("Enter operator")
 if operator == "+":
     print(num_1 + num_2)
     
+elif operator == "-":
+    print(num_1 - num_2)
+    
+elif operator == "*":
+    print(num_1 * num_2)
+    
+elif operator == "/":
+    print(abs(num_1 / num_2))
+    
