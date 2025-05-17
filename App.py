@@ -135,19 +135,36 @@ from math import *
 
 
 
-num_1 = int(input("Enter the first number: "))
-num_2 =int( input("Enter the second number: "))
-operator = input("Enter operator")  
+# num_1 = int(input("Enter the first number: "))
+# num_2 =int( input("Enter the second number: "))
+# operator = input("Enter operator")  
 
-if operator == "+":
-    print(num_1 + num_2)
+# if operator == "+":
+#     print(num_1 + num_2)
     
-elif operator == "-":
-    print(num_1 - num_2)
+# elif operator == "-":
+#     print(num_1 - num_2)
     
-elif operator == "*":
-    print(num_1 * num_2)
+# elif operator == "*":
+#     print(num_1 * num_2)
     
-elif operator == "/":
-    print(abs(num_1 / num_2))
+# elif operator == "/":
+#     print(abs(num_1 / num_2))
+# else: 
+#     print("Invalid operator")
     
+# # Try except in python 
+# try: 
+#     x = int(input("input an integer :"))
+#     print(x)
+    
+# except ValueError: 
+#     print("HeHe That s wrong")
+
+# else:
+#     print("you did it")
+    
+# finally:
+#     print("Try except finished")
+
+
