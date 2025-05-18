@@ -168,3 +168,6 @@ from math import *
 #     print("Try except finished")
 
 
+file = open("countries.txt", "r")
+
+print(file.read())
