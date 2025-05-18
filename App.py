@@ -171,3 +171,5 @@ from math import *
 file = open("countries.txt", "r")
 
 print(file.read())
+
+file.close()
