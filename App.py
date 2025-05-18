@@ -192,10 +192,12 @@ from math import *
 
 
 # Inheritance in Python
-from students import Student
+# from students import Student
 
-class Person(Student):
-    pass
+# class Person(Student):
+#     pass
     
-first_student = Person()
-print(first_student.name)
+# first_student = Person()
+# print(first_student.name)
+
+
