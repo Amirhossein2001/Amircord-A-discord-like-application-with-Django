@@ -182,10 +182,20 @@ from math import *
 # first_number = Myclass()
 # print(first_number.x)
 
-class Person: 
-    def __init__(self,name, age):
-        self.name = name
-        self.age = age
+# class Person: 
+#     def __init__(self,name, age):
+#         self.name = name
+#         self.age = age
         
-p1 = Person("Amir", 23)
-print(p1.name)
+# p1 = Person("Amir", 23)
+# print(p1.name)
+
+
+# Inheritance in Python
+from students import Student
+
+class Person(Student):
+    pass
+    
+first_student = Person()
+print(first_student.name)
