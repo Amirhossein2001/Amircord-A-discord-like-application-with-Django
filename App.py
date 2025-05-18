@@ -168,8 +168,24 @@ from math import *
 #     print("Try except finished")
 
 
-file = open("countries.txt", "r")
+# file = open("countries.txt", "a")
+# file.write("England\n")
 
-print(file.read())
 
-file.close()
+# file.close()
+
+# classes and objects 
+
+# class Myclass:
+#     x = 5
+    
+# first_number = Myclass()
+# print(first_number.x)
+
+class Person: 
+    def __init__(self,name, age):
+        self.name = name
+        self.age = age
+        
+p1 = Person("Amir", 23)
+print(p1.name)
